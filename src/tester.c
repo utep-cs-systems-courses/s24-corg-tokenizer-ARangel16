@@ -12,6 +12,7 @@
 #define TEST_TOKENIZER 1
 #define TEST_HISTORY 1
 
+
 /* MinUnit: http://www.jera.com/techinfo/jtns/jtn002.html */
  #define mu_assert(message, test) do { if (!(test)) return message; } while (0)
  #define mu_run_test(test) do { char *message = test(); tests_run++; if (message) return message; } while (0)
@@ -108,3 +109,4 @@ static char *all_tests() {
 
     return result != 0;
  }
+
