@@ -1,6 +1,9 @@
-#Ainclude "history.h"
+#include "history.h"
 #include "stdio.h"
 #include "stdlib.h"
+
+int main(){}
+
 
 int string_length(char str[]){
 
